@@ -1,0 +1,10 @@
+EMMET 
+
+. --> Criando uma classe 
+# --> Criando um Id
+$ --> Dados Variaveis
+> --> Criar um filho (elemento)
+{} --> Escrever um textono elemento
+[] --> Incluir atributos ao elemento
++ --> Criando outros elemento filho no mesmo nivel
+* --> Criar varios elementos

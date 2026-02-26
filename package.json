@@ -1,0 +1,21 @@
+{
+  "name": "menu-de-projetos",
+  "version": "1.0.0",
+  "description": "Projeto que irá unificar todos os apps desenvolvido em sala de aula juntando tudo e ficando mais facíl de acessalos por meio de uma página.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "projeto",
+    "organização",
+    "atenção",
+    "comentários",
+    "boas",
+    "práticas"
+  ],
+  "author": "Carlos Daniel Dantas",
+  "license": "ISC",
+  "git_repository": ""
+  
+}
