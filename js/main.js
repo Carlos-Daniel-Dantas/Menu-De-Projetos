@@ -5,4 +5,15 @@ const btnP3 = document.querySelector('#inputP3');
 console.log(btnP1);
 
 
+btnP1.addEventListener('click', function(){
+
+    window.location.href='./pages/projeto01.html'
+});
+
+btnP2.addEventListener('click', function(){
+
+    window.location.href='./pages/projeto02.html'
+});
+
+
 
