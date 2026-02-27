@@ -3,7 +3,7 @@ function criarBotaoVoltar(){
     // Elemento botão
     const btnVoltar = document.createElement('button');
 
-    btnVoltar.innerText = 'Volatr';
+    btnVoltar.innerText = 'Voltar';
     btnVoltar.style.marginTop = '20px';
 
 
@@ -14,7 +14,6 @@ function criarBotaoVoltar(){
     });
 
     document.body.appendChild(btnVoltar);
-
 
 };
 

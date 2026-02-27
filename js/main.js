@@ -14,6 +14,10 @@ btnP2.addEventListener('click', function(){
 
     window.location.href='./pages/projeto02.html'
 });
+btnP3.addEventListener('click', function(){
+
+    window.location.href='./pages/projeto03.html'
+});
 
 
 

@@ -1,28 +1,27 @@
-/* Variaveis do Design Sys */
-:root{
+:root {
     --primary-color: #6366f1;
     --primary-hover: #4f46e5;
     --bg-color: #f8fafc;
-    --text-color: #ffffff;
+    --text-color: #1e293b;
+    --white: #ffffff;
     --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
-    --radi: 8px;
-    --font-main: "Montserrat", sans-serif ;
-}
+    --radius: 8px;
+    --font-main: "Montserrat", sans-serif;
+}   
 
+/* Reset básico */
 *{
     margin: 0;
     padding: 0;
-    border-top: auto;
     box-sizing: border-box;
     font-family: inherit;
 }
 
 body{
     font-family: var(--font-main);
-    background-color: var(--bg--color);
+    background-color: var(--bg-color);
     color: var(--text-color);
     display: flex;
-
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -30,14 +29,16 @@ body{
     text-align: center;
 }
 
+/* Header */
 .project__header h1{
     font-size: 2.5rem;
     margin-bottom: 2rem;
     color: var(--primary-color);
-
 }
 
-.project__button-group input[type="button"]{
+/* Estilização dos Botões (Inputs e botão Dinâmico) */
+.project__button-group input[type="button"],
+button{
     background-color: var(--primary-color);
     color: var(--white);
     border: none;
@@ -48,14 +49,12 @@ body{
     border-radius: var(--radius);
     cursor: pointer;
     box-shadow: var(--shadow);
-    transition: all 0.3s ease;
-
+    transition: all 0.3 ease;
 }
 
 .project__button-group input[type="button"]:hover,
 button:hover{
-    background-color: var(--primary-color);
-    transform: translate(-2px);
-    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
-
+    background-color: var(--primary-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgb(0, 0, 0 / 0.1);
 }
